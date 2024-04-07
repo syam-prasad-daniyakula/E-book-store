@@ -1,0 +1,32 @@
+/* For tablets */
+@media only screen and (max-width: 768px) {
+    .categories, .featured {
+        gap: 15px;
+    }
+
+    .newsletter form {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+/* For mobile phones */
+@media only screen and (max-width: 480px) {
+    nav {
+        display: inline;
+
+    }    /* .logo{
+        width: 60px;
+        height: 50px;
+        margin-top: -250%;
+    } */
+
+    .hero h1 {
+        font-size: 24px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+    
+}
